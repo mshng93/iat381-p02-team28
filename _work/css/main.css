@@ -4,6 +4,7 @@ body
 	text-align: center;
 	font-family: Arial, Verdana, sans-serif;
 	font-size: 10pt;
+	background-image: url('images/travel_wallpaper.jpg');
 	background-color: #6cc2dd;
 	color: #675845;
 }
@@ -13,21 +14,20 @@ body
 	width: 1000px;
 	text-align: left;
 	margin: 0 auto;
-	background-color: #FFFFFF;
+	background-color: rgba(255,255,255,0.9);
 }
 
 
 /* control menu bar style */
 header
 {
-	text-align: center;
+	text-align: left;
 	padding: 0;
 }
 
 .logo
 {
 	display: inline-block;
-	text-align: right;
 }
 
 .navigation
@@ -70,6 +70,7 @@ figure
 	margin-left: 2em;
 }
 
+
 /* footer style */
 #footer
 {
@@ -79,8 +80,8 @@ figure
 	color: white;
 }
 
-/*font sizes relative to each other for whole site*/
 
+/*font sizes relative to each other for whole site*/
 h1
 {
 	text-decoration: none;
@@ -117,7 +118,8 @@ h6
 	font-size:0.6rem;
 }
 
-p {
+p 
+{
 	text-decoration:none;
 	font-size:0.75rem;
 }
