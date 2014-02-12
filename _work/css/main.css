@@ -11,26 +11,11 @@ body
 nav a, nav a:visited
 {
 	display: inline-block;
-}
-
-.navigation
-{
-	float: right;
-	display: inline-block;
-	margin-top: 1em;
-	margin-bottom:1em;
-	margin-left: 0;
-	text-align: right;
-}
-
-.navigation a
-{
-	background-color: #67c7bb;
+	background-color:#67c7bb;
 	color: white;
 	text-decoration: none;
 	padding: 0.5rem 1rem;
-	text-decoration:none;
-	width: 100%;
+	width:100%;
 }
 
 nav a:hover, nav a:active, nav a:focus
