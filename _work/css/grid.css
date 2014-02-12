@@ -48,6 +48,22 @@
 
 .col-1of2 {
 	width: 50%;
+	padding: 1rem;
+}
+
+.col-1of3 {
+	width: 33.333%;
+	padding: 1rem;
+}
+
+.col-1of2a {
+	width: 60%;
+	padding: 1rem;
+}
+
+.col-1of2b {
+	width: 40%;
+	padding: 1rem;
 }
 
 /* after the class grid, clear styling */
