@@ -40,6 +40,12 @@
 	margin-bottom: 2rem;
 }
 
+.columnWrapper
+{
+	margin-right: 2rem;
+	float: center;
+}
+
 .col-1of1
 {
 	width: 100%;
@@ -47,8 +53,10 @@
 }
 
 .col-1of2 {
-	width: 50%;
-	padding: 1rem;
+	width: 46%;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	background-color: #e3e3e3;
 }
 
 .col-1of3 {
