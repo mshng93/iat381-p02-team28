@@ -40,36 +40,34 @@
 	margin-bottom: 2rem;
 }
 
-.columnWrapper
-{
-	margin-right: 2rem;
-	float: center;
-}
-
 .col-1of1
 {
 	width: 100%;
 	padding: 1rem;
 }
 
-.col-1of2 {
+.col-1of2 
+{
 	width: 46%;
-	margin-left: 1rem;
-	margin-top: 1rem;
+	margin: 1rem;
+	padding: 0;
 	background-color: #e3e3e3;
 }
 
-.col-1of3 {
+.col-1of3 
+{
 	width: 33.333%;
 	padding: 1rem;
 }
 
-.col-1of2a {
+/* styling 2 column grid with different width */
+.col-1of2left
+{
 	width: 60%;
 	padding: 1rem;
 }
-
-.col-1of2b {
+.col-1of2right
+{
 	width: 40%;
 	padding: 1rem;
 }
@@ -91,6 +89,7 @@
 	box-sizing: border-box;
 }
 
+/* ---------------------------------------------------------------------------------------------- */
 
 /* footer grid */
 #footer
@@ -101,10 +100,11 @@
 	color: white;
 }
 
-/* 
-	when the display has a width less than 490px
-*/
-@media (max-width:1070px) {
+/* ---------------------------------------------------------------------------------------------- */
+
+/* when the display has a width less than 490px */
+@media (max-width:1070px) 
+{
 	.menu
 	{
 		width: 100%;
@@ -115,4 +115,139 @@
 	{
 		width: 100%;
 	}
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+/* styling for packages */
+div .optionContent
+{
+	padding: 1rem;
+}
+
+.optionContent h1
+{
+	margin-bottom: 0.5rem;
+}
+
+.optionContent figure
+{
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+.optionContent p
+{
+	display: inline-block;
+}
+
+.optionBottomBar
+{
+	padding: 1rem;
+	background-color: #b7b7b7;
+	color: white;
+}
+
+.optionBottomBar h2
+{
+	display: inline-block;
+	margin-right: 0.3rem;
+}
+
+.optionBottomBar h5
+{
+	display: inline-block;
+}
+
+.optionBottomBar a
+{
+	display: inline-block;
+	float: right;
+}
+
+.packageBar
+{
+	background-color: #b7b7b7;
+	padding: 0.5rem 1rem;
+	margin-top: 1rem;
+}
+
+.packageBar h4
+{
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+.viewMoreButton a
+{
+	width: 100%;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+/* dropdown styling */
+.dropDown
+{
+	display: inline-block;
+}
+
+.dropDown ul ul /* hide submenus */
+{
+	display: none;
+}
+
+/* style submenus */
+.dropDown ul li:hover > ul
+{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.dropDown ul li:hover > ul li
+{
+	float: none;
+	display: block;
+}
+
+.dropDown ul li:hover > ul li a
+{
+	color: white;
+	min-width: 150px;
+}
+
+.dropDown ul li:hover > ul li a:hover
+{
+	color: black;
+}
+
+.dropDown ul
+{
+	padding: 0 1rem;
+	list-style: none;
+	position: relative;
+	display: inline-block;
+}
+
+.dropDown ul li
+{
+	float: left;
+	position: relative;
+}
+
+.dropDown ul li a
+{
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	display: block;
+	color: white;
+}
+
+.dropDown ul li:hover
+{
+	background: white;
+}
+
+.dropDown ul li:hover a
+{
+	color: black;
 }
