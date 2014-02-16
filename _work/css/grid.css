@@ -40,17 +40,21 @@
 	margin-bottom: 2rem;
 }
 
+.grid
+{
+	padding: 0 1rem;
+}
+
 .col-1of1
 {
 	width: 100%;
-	padding: 1rem;
+	margin-top: 1rem;
 }
 
 .col-1of2 
 {
-	width: 46%;
-	margin: 1rem;
-	padding: 0;
+	width: 50%;
+	padding: 1rem;
 	background-color: #e3e3e3;
 }
 
@@ -64,12 +68,25 @@
 .col-1of2left
 {
 	width: 60%;
-	padding: 1rem;
+	padding-right: 1rem;
 }
 .col-1of2right
 {
 	width: 40%;
+}
+
+.linkButton
+{
+	float: right;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.floatingBox
+{
+	background-color: #e3e3e3;
 	padding: 1rem;
+	margin-top: 1rem;
 }
 
 /* after the class grid, clear styling */
@@ -112,6 +129,11 @@
 	}
 
 	.top
+	{
+		width: 100%;
+	}
+
+	.col-1of2
 	{
 		width: 100%;
 	}
@@ -170,6 +192,7 @@ div .optionContent
 	background-color: #b7b7b7;
 	padding: 0.5rem 1rem;
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .packageBar h4
@@ -178,9 +201,10 @@ div .optionContent
 	margin-right: 1rem;
 }
 
-.viewMoreButton a
+.viewMoreButton
 {
 	width: 100%;
+	margin: 2rem 0;
 }
 
 /* ---------------------------------------------------------------------------------------------- */
@@ -250,4 +274,13 @@ div .optionContent
 .dropDown ul li:hover a
 {
 	color: black;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+/* vacation wizard styling */
+
+.floatingBox h3
+{
+	margin-bottom: 1rem;
 }
