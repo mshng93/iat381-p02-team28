@@ -119,4 +119,62 @@ figure
 	margin-left: 0;
 }
 
+/* ---------------------------------------------------------------------------------------------- */
 
+/* style for form */
+#contact-form ul
+{
+	list-style-type: none;
+	list-style-position: outside;
+	margin: 0;
+	padding: 0;
+}
+
+#contact-form li
+{
+	padding: 0.5rem;
+	position: relative;
+}
+
+form
+{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: #675845;
+}
+
+/* input area style */
+#contact-form label
+{
+	width: 6rem;
+	display: inline-block;
+	float: left;
+	padding-right: 1rem;
+}
+
+#contact-form input
+{
+	width: 20rem;
+	height: 2rem;
+	padding-left: 1rem;
+}
+
+#contact-form textarea
+{
+	width: 20rem;
+	height: 10rem;
+	padding: 0.5rem 1rem;
+}
+
+#contact-form button
+{
+	background-color: #67c7bb;
+	color:white;
+	padding: 0.5rem 1rem;
+}
+
+button.submit:hover
+{
+	background-color: #9c876b;
+	color: white;
+}
