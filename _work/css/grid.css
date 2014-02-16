@@ -56,6 +56,7 @@
 	width: 50%;
 	padding: 1rem;
 	background-color: #e3e3e3;
+	margin-top: 1rem;
 }
 
 .col-1of3 
@@ -80,6 +81,7 @@
 	float: right;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+	margin-left: 1rem;
 }
 
 .floatingBox
@@ -87,6 +89,27 @@
 	background-color: #e3e3e3;
 	padding: 1rem;
 	margin-top: 1rem;
+}
+
+.grayLabel
+{
+	background-color: #b7b7b7;
+	padding: 0.5rem 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.grayLabel h4
+{
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+.whiteLabel
+{
+	background-color: white;
+	padding: 1rem;
+	margin-bottom: 1rem;
 }
 
 /* after the class grid, clear styling */
@@ -185,20 +208,6 @@ div .optionContent
 {
 	display: inline-block;
 	float: right;
-}
-
-.packageBar
-{
-	background-color: #b7b7b7;
-	padding: 0.5rem 1rem;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-}
-
-.packageBar h4
-{
-	display: inline-block;
-	margin-right: 1rem;
 }
 
 .viewMoreButton
