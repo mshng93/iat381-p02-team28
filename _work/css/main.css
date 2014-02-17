@@ -15,7 +15,6 @@ nav a, nav a:visited
 	color: white;
 	text-decoration: none;
 	padding: 0.5rem 1rem;
-	width:100%;
 }
 
 nav a:hover, nav a:active, nav a:focus
@@ -39,19 +38,10 @@ a:hover, a:active, a:focus
 	color: white;
 }
 
-/* style for dropdown link */
-.dropDown a, .dropDown a:visited
+/* style for link in graylabel */
+.grayLabel a, .grayLabel a:visited
 {
-	background-color: white;
-	color: #b7b7b7;
-	text-decoration: none;
-	padding: 0.5rem 1rem;
-}
-
-.dropDown a:hover, .dropDown a:active, .dropDown a:focus
-{
-	background-color: #9c876b;
-	color: white;
+	margin-right: 1rem;
 }
 
 /*font sizes relative to each other for whole site*/
