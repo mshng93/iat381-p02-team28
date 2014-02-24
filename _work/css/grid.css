@@ -51,12 +51,14 @@
 {
 	width: 50%;
 	padding-right: 1rem;
+	margin-top: 1rem;
 }
 
 .col-1of2-padding
 {
 	width: 50%;
 	padding: 0 1rem;
+	margin-top: 1rem;
 }
 
 .col-1of3 
@@ -98,9 +100,14 @@
 .linkButton
 {
 	float: right;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+	margin-top: 1rem;
 	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+.linkInsideLabel
+{
+	float: right;
 }
 
 .floatingBox
@@ -111,25 +118,32 @@
 	overflow: auto;
 }
 
-.grayLabel
+.brownLabel
 {
-	background-color: #b7b7b7;
+	background-color: #ac9d8a;
 	padding: 0.5rem 1rem;
 	margin-top: 1rem;
-	margin-bottom: 1rem;
+	font-size: 1.2rem;
+	color:white;
 }
 
-.grayLabel h4
+.brownLabel h3
 {
 	display: inline-block;
 	margin-right: 1rem;
+	padding: 0.7rem 0;
 }
 
 .lightGrayLabel
 {
 	background-color: #f7f7f7;
-	padding: 1rem;
-	margin-bottom: 1rem;
+	padding: 0.5rem 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.lightGrayLabel figure
+{
+	margin-right: 0.5rem;
 }
 
 .boxLabel
@@ -163,7 +177,7 @@
 {
 	text-align: center;
 	padding: 0.1em;
-	background-color: #ac9d8a;
+	background-color: #84745f;
 	color: white;
 }
 
@@ -172,10 +186,31 @@
 /* when the display has a width less than 490px */
 @media (max-width:1070px) 
 {
-	.menu
+	.buttons
 	{
+		float: none;
 		width: 100%;
 		margin: 0;
+		text-align: center;
+	}
+
+	.menu
+	{
+		margin-bottom: 0.5rem;
+		margin-top: 0;
+		padding: 0 1rem;
+		width: 100%;
+	}
+
+	.menu a
+	{
+		width: 100%;
+	}
+
+	/* make the carousel image dissapear */
+	.carouselImage
+	{
+		display: none;
 	}
 
 	.top
@@ -186,11 +221,51 @@
 	.col-1of2
 	{
 		width: 100%;
+		padding-left: 1rem;
+	}
+
+	.col-1of2left .floatingBox
+	{
+		margin-right: 1rem;
+	}
+
+	.col-1of2right
+	{
+		padding-left: 1rem;
 	}
 
 	.optionContent figure
 	{
 		width: 100%;
+	}
+
+	.body
+	{
+		background-size: auto 100%;
+	}
+
+	.col-1of2-padding
+	{
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	.optionBottomBar
+	{
+		overflow: auto;
+		text-align: center;
+	}
+
+	.linkButton
+	{
+		width: 100%;
+		text-align: center;
+		margin-top: 0.5rem;
+	}
+
+	.linkButton a
+	{
+		width:100%;
 	}
 }
 
@@ -235,8 +310,7 @@ div .optionContent
 
 .optionContent h2
 {
-	margin-top: 1rem;
-	margin-bottom: 0.5rem;
+	margin: 1rem 0;
 }
 
 .optionContent figure
@@ -277,6 +351,7 @@ div .optionContent
 {
 	margin-top: 1rem;
 	margin-bottom: 2rem;
+	width: 100%;
 }
 
 .viewMoreButton a
@@ -289,6 +364,6 @@ div .optionContent
 /* vacation wizard styling */
 .floatingBox h3
 {
-	margin-bottom: 1rem;
+	margin-bottom: 0.3rem;
 }
 
