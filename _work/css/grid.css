@@ -146,13 +146,6 @@
 	margin-right: 0.5rem;
 }
 
-.boxLabel
-{
-	padding: 1rem;
-	background-color: white;
-	border-bottom: 2px solid #e3e3e3;
-}
-
 /* after the class grid, clear styling */
 .grid:after
 {
@@ -170,9 +163,8 @@
 	box-sizing: border-box;
 }
 
-/* ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------- FOOTER ----------------------------------------------- */
 
-/* footer grid */
 #footer
 {
 	text-align: center;
@@ -181,7 +173,7 @@
 	color: white;
 }
 
-/* ---------------------------------------------------------------------------------------------- */
+/* ----------------------------------- MEDIA QUERY ------------------------------------------------- */
 
 /* when the display has a width less than 490px */
 @media (max-width:1070px) 
@@ -299,9 +291,8 @@
 	}
 }
 
-/* ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------- PACKAGES PAGE ----------------------------------------- */
 
-/* styling for packages page */
 div .optionContent
 {
 	padding: 1rem;
@@ -359,11 +350,42 @@ div .optionContent
 	width: 100%;
 }
 
-/* ---------------------------------------------------------------------------------------------- */
+/* -------------------------------------- VACATION WIZARD ----------------------------------------- */
 
-/* vacation wizard styling */
 .floatingBox h3
 {
 	margin-bottom: 0.3rem;
 }
 
+/* -----------------------------------------VACATION DETAIL---------------------------------------- */
+
+.whiteWrapper
+{
+	background-color: white;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	overflow: auto;
+}
+
+.detailContent
+{
+	background-color: #f7f7f7;
+	margin-top: 0.5rem;
+	display: inline-block;
+}
+
+.col-2of2
+{
+	width: 50%;
+	display: inline-block;
+	padding: 1rem;
+}
+
+.col-2of2 h4
+{
+	border-bottom: 2px solid #b7b7b7;
+	padding-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
+}
