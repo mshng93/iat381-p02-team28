@@ -7,7 +7,7 @@
 {
 	width: 80%;
 	margin: 0 auto;
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,0.8);
 }
 
 /* when there is a class that contain col-, apply this styling */
@@ -65,24 +65,6 @@
 {
 	width: 33.333%;
 	padding: 1rem;
-}
-
-.col-1of4
-{
-	width: 25%;
-	padding:  0.5rem 1rem;
-	background-color: white;
-}
-
-.col-1of4 figure
-{
-	display: inline-block;
-	margin-right: 0.5rem;
-}
-
-.col-1of4 p
-{
-	display: inline-block;
 }
 
 /* styling 2 column grid with different width */
@@ -216,16 +198,6 @@
 		padding-left: 1rem;
 	}
 
-	.col-1of2left .floatingBox
-	{
-		margin-right: 1rem;
-	}
-
-	.col-1of2right
-	{
-		padding-left: 1rem;
-	}
-
 	.optionContent figure
 	{
 		width: 100%;
@@ -242,12 +214,6 @@
 		margin-bottom: 1rem;
 	}
 
-	.optionBottomBar
-	{
-		overflow: auto;
-		text-align: center;
-	}
-
 	.linkButton
 	{
 		width: 100%;
@@ -261,7 +227,7 @@
 	}
 }
 
-@media (max-width: 850px)
+@media (max-width:850px)
 {
 	.col-1of2left
 	{
@@ -273,21 +239,53 @@
 	{
 		width: 100%;
 	}
+
+	.detailContent .col-2of2
+	{
+		width: 100%;
+	}
+
+	.col-1of2left .floatingBox
+	{
+		margin-right: 1rem;
+	}
+
+	.col-1of2right
+	{
+		padding-left: 1rem;
+	}
 }
 
-@media (max-width: 1210px)
+@media (max-width:1210px)
 {
-	.col-1of4
+	.detailContent .col-1of4
 	{
 		width: 50%;
 	}
 }
 
-@media (max-width: 625px)
+@media (max-width:625px)
 {
-	.col-1of4
+	.detailContent .col-1of4
 	{
 		width: 100%;
+	}
+
+	.linkInsideLabel
+	{
+		width: 100%;
+		margin-top: 0.5rem;
+	}
+
+	.linkInsideLabel a
+	{
+		width: 100%;
+	}
+
+	.optionBottomBar
+	{
+		overflow: auto;
+		text-align: center;
 	}
 }
 
@@ -374,6 +372,7 @@ div .optionContent
 	background-color: #f7f7f7;
 	margin-top: 0.5rem;
 	display: inline-block;
+	width: 100%;
 }
 
 .col-2of2
@@ -388,4 +387,31 @@ div .optionContent
 	border-bottom: 2px solid #b7b7b7;
 	padding-bottom: 0.5rem;
 	margin-bottom: 0.5rem;
+}
+
+/* --------------------------------------- VACATION CONFIRMATION ----------------------------------- */
+
+.col-1of4
+{
+	width: 25%;
+	padding:  0.5rem 1rem;
+	display: inline-block;
+}
+
+.col-1of4 figure
+{
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+
+.col-1of4 p
+{
+	display: inline-block;
+}
+
+.boxLabel
+{
+	border-bottom: 2px solid #b7b7b7;
+	padding: 0.5rem 1rem;
+	width: 100%;
 }
