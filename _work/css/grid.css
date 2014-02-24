@@ -73,6 +73,12 @@
 	width: 60%;
 	padding: 0 1rem;
 }
+
+.col-1of2left h1
+{
+	padding-top: 1rem;
+}
+
 .col-1of2right
 {
 	width: 40%;
@@ -121,6 +127,7 @@
 	background-color: #f7f7f7;
 	padding: 0.5rem 1rem;
 	margin-bottom: 0.5rem;
+	overflow: auto;
 }
 
 .lightGrayLabel figure
