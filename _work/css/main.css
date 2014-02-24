@@ -7,6 +7,7 @@ body
 	background-repeat: no-repeat;
 	background-position:top center;
 	background-attachment:fixed;
+	background-size: 100%;
 }
 
 nav a, nav a:visited
@@ -20,12 +21,12 @@ nav a, nav a:visited
 
 nav a:hover, nav a:active, nav a:focus
 {
-	background-color: #9c876b;
+	background-color: #4A8F86;
 	color: white;
 }
 
 /* style for regular link */
-a, a:visited
+.linkButton a, .linkButton a:visited
 {
 	background-color:#67c7bb;
 	color:white;
@@ -33,16 +34,56 @@ a, a:visited
 	padding: 0.5rem 0.5rem;
 }
 
-a:hover, a:active, a:focus
+.linkButton a:hover, .linkButton a:active, .linkButton a:focus
 {
-	background-color: #9c876b;
+	background-color: #4A8F86;
+	color: white;
+}
+
+/* style for view more link */
+.viewMoreButton a, .viewMoreButton a:visited
+{
+	background-color:#67c7bb;
+	color:white;
+	text-decoration: none;
+	padding: 0.5rem 0.5rem;
+}
+
+.viewMoreButton a:hover, .viewMoreButton a:active, .viewMoreButton a:focus
+{
+	background-color: #4A8F86;
 	color: white;
 }
 
 /* style for link in graylabel */
-.grayLabel a, .grayLabel a:visited
+.brownLabel a, .brownLabel a:visited
 {
+	background-color:#67c7bb;
+	color:white;
+	text-decoration: none;
+	padding: 0.5rem 0.5rem;
 	margin-right: 1rem;
+}
+
+.brownLabel a:hover, .brownLabel a:active, .brownLabel a:focus
+{
+	background-color: #4A8F86;
+	color: white;
+}
+
+/* style for link that is placed inside a label */
+.linkInsideLabel a, .linkInsideLabel a:visited
+{
+	background-color:#67c7bb;
+	color:white;
+	text-decoration: none;
+	padding: 0.5rem 0.5rem;
+}
+
+.linkInsideLabel a:hover, .linkInsideLabel a:active, .linkInsideLabel a:focus
+{
+	background-color: #4A8F86;
+	color: white;
 }
 
 /*font sizes relative to each other for whole site*/
@@ -114,7 +155,6 @@ figure
 #contact-form ul
 {
 	list-style-type: none;
-	list-style-position: outside;
 	margin: 0;
 	padding: 0;
 }
@@ -122,13 +162,12 @@ figure
 #contact-form li
 {
 	padding: 0.5rem 0;
-	position: relative;
 }
 
 form
 {
 	font-family: 'Lato', sans-serif;
-	font-size: 15px;
+	font-size: 1rem;
 	color: #675845;
 }
 
@@ -136,7 +175,6 @@ form
 #contact-form label
 {
 	width: 50%;
-	display: inline-block;
 	float: left;
 	padding-right: 1rem;
 	padding-bottom: 0.5rem;
