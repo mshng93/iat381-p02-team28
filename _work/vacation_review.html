@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
 
 	<head>
@@ -7,7 +8,7 @@
 		<!-- special meta tag for responsive page -->
 		<meta name="viewport" content="width-device-width, initial-scale=1.0">
 
-		<title>Bon Voyage Vacation Details</title>
+		<title>Bon Voyage Vacation Review</title>
 		<link rel="stylesheet" href="css/main.css" type="text/css">
 		<link rel="stylesheet" href="css/grid.css" type="text/css">
 
@@ -15,10 +16,6 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
 	</head>
-
-
-	<!-- ********************************* end of head section ********************************* -->
-
 
 	<body>
 
@@ -30,7 +27,7 @@
 				<div class="top">
 					
 					<figure>
-						<img src="images/logo.png" width="279" height="40" alt="">
+						<img src="images/logo.png" alt="logo">
 					</figure>
 
 				</div>
@@ -59,178 +56,98 @@
 					</div>
 
 				</nav> <!-- end of nav grid -->
+			</header> <!--END OF HEADER-->
 
-			</header>
-
-			<!-- content part -->
-			<div class = "grid">
-
+			<div class="grid">
 				<div class="whiteWrapper">
 
-					<h1> BOOKING DETAILS </h1>
-					<h2> Hang in there! You are only a step away from your dream vacation </h2>
+					<div class="col-1of2left">
+						<h1>REVIEW AND PAY</h1>
+						<h2>Confirm the details and you're on your way!</h2>
 
-					<div class="brownLabel">
-						<h4> ADVENTURE IN TOKYO (5 Days 4 Nights) </h4>
-					</div>
-
-					<div class="detailContent">
-
-						<h3 class="boxLabel"> HOTEL INFORMATION </h3>
-
-						<div class="col-1of4">
-							<figure class="icon">
-								<img src="images/icon-hyatthotel.jpg" width="25" height="25" alt="">
-							</figure>
-
-							<p> 
-								The Hyatt Group <br>
-								Tokyo - Kyoto
-							</p>
+						<div class="brownLabel">
+							<h4> TRAVELLER INFORMATION </h4>
 						</div>
 
-						<div class="col-1of4">
+						<div class="detailContent">
 
-							<figure class="icon">
-								<img src="images/icon-checkin.jpg" width="25" height="25" alt="">
-							</figure>
+							<h3 class="boxLabel"> FLIGHT </h3><br>
+							<h4>Traveller 1, Adult, Primary Contact</h4>
+							<form method="post" action="#" id="subscribe">
+								<label for="form-name"> Full Name </label>
+								<input type="text" id="form-name" name="form-name" placeholder="Jane Doe"><br>
+								<label for="form-name"> Phone Number </label>
+								<input type="text" id="form-name" name="form-name" placeholder="###-###-####">
+							</form><br>
 
-							<p> 
-								Check-in time <br>
-								Day 1, 15:00
-							</p>
+							<h4>Traveller 2</h4>
+							<form method="post" action="#" id="subscribe">
+								<label for="form-name"> Full Name </label>
+								<input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
+							</form><br>
+
+							<h4>Traveller 3</h4>
+							<form method="post" action="#" id="subscribe">
+								<label for="form-name"> Full Name </label>
+								<input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
+							</form><br>
+
+							<h4>Traveller 4</h4>
+							<form method="post" action="#" id="subscribe">
+								<label for="form-name"> Full Name </label>
+								<input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
+							</form><br>
+
+							<h3 class="boxLabel"> HOTEL </h3><br>
+							<h4>Room 1: 2 Queen Sized Beds</h4><br>
+							<h5>Please infom us of who will be checking in, must be age 18+</h5>
+							<form method="post" action="#" id="subscribe">
+								<label for="form-name"> Full Name </label>
+								<input type="text" id="form-name" name="form-name" placeholder="Jane Doe">
+							</form>
+
+						</div> <!-- closing detailContent --> 
+
+
+					</div><!--end of left column-->
+
+
+					<div class="col-1of2right">
+						<div class="detailContent">
+							<h4 class="brownLabel">TRIP SUMMARY</h4><br>
+							<p>Vacation Package Adventure in Tokyo</p><br>
+							<p>Flight to Tokyo</p><br>
+							<p>Tickets for 4, WestJet Canada</p><br>
+							<p>Hyatt Hotel 5 Days, 4 Nights</p><br>
+
+							<h3 class="boxLabel">REVIEW PRICING</h3><br>
+							
+							<h4>Vacation Package: $1499</h4>
+							<h4>Taxes: $74.95</h4>
+							<h4>Savings: $300</h4><br>
+							<h3><strong>Total: $1573.95</strong></h3><br>
 						</div>
 
-						<div class="col-1of4">
+					</div><!--end of right column-->
 
-							<figure class="icon">
-								<img src="images/icon-checkout.jpg" width="25" height="25" alt="">
-							</figure>
-
-							<p> 
-								Check-out Time <br>
-								Day 5, 11:00
-							</p>
+						<div class="linkButton">
+							<a href="vacation_pay.html"> CONFIRM PAYMENT </a>
 						</div>
 
-					</div> <!-- closing detailContent --> 
-
-
-					<div class="detailContent">
-
-						<h3 class="boxLabel"> FLIGHT DETAILS </h3>
-
-						<div class="col-1of4">
-							<figure class="icon">
-								<img src="images/icon-westjet.jpg" width="25" height="25" alt="">
-							</figure>
-
-							<p> 
-								Westjet Canada <br>
-								Boeing 777
-							</p>
+						<div class="linkButton">
+							<a href="vacation_packages.html"> CANCEL BOOKING </a>
 						</div>
 
-						<div class="col-1of4">
-
-							<figure class="icon">
-								<img src="images/icon-airplane.jpg" width="25" height="25" alt="">
-							</figure>
-
-							<p> 
-								Departure at 3 PM <br>
-								Arrive at 9 PM
-							</p>
-						</div>
-
-						<div class="col-1of4">
-
-							<figure class="icon">
-								<img src="images/icon-luggage.jpg" width="25" height="25" alt="">
-							</figure>
-
-							<p> 
-								2 pieces luggages <br>
-								23 Kg each
-							</p>
-						</div>
-
-						<div class="col-1of4">
-
-							<figure class="icon">
-								<img src="images/icon-meals.jpg" width="25" height="25" alt="">
-							</figure>
-
-							<p> 
-								Meals included <br>
-								Request for special meal
-							</p>
-						</div>
-
-					</div> <!-- closing detailContent --> 
-
-
-					<div class="detailContent">
-
-						<h3 class="boxLabel"> DESTINATION INFORMATION </h3>
-
-						<div class="col-1of4">
-							<figure class="icon">
-								<img src="images/icon-destination.jpg" width="25" height="25" alt="">
-							</figure>
-
-							<p> 
-								Tokyo & Kyoto
-							</p>
-						</div>
-
-						<div class="col-1of4">
-
-							<figure class="icon">
-								<img src="images/icon-temperature.jpg" width="25" height="25" alt="">
-							</figure>
-
-							<p> 
-								Average 20 C
-							</p>
-						</div>
-
-						<div class="col-1of4">
-
-							<figure class="icon">
-								<img src="images/icon-clock.jpg" width="25" height="25" alt="">
-							</figure>
-
-							<p> 
-								+9 GMT
-							</p>
-						</div>
-
-					</div> <!-- closing detailContent --> 
-
-
-					<div class="linkButton">
-						<a href="vacation_pay.html"> REVIEW BOOKING </a>
-					</div>
-
-					<div class="linkButton">
-						<a href="vacation_packages.html"> CANCEL BOOKING </a>
-					</div>
-
-				</div> <!-- closing whiteWrapper -->
-
-			</div> <!-- closing grid div> -->
-
-			<!-- ******************************** end of content section ***************************** -->
-
+				</div><!--END OF WRAPPER-->
+			</div><!--END OF CONTENT-->
 
 			<!-- footer part start -->
 			<div id="footer">
 				<p> Project02 - IAT 381. Clarissa Ishak & Melinda Ng  <br> Copyright © 2014. All Rights Reserved </p>
 			</div>
 
-		</div> <!-- end of wrapper -->
+		</div><!--END OF WRAPPER-->
 
 	</body>
 
-</html>
+	</html>
