@@ -35,6 +35,7 @@ nav a:hover, nav a:active, nav a:focus
 	color:white;
 	text-decoration: none;
 	padding: 0.5rem 0.5rem;
+	display: inline-block;
 }
 
 .linkButton a:hover, .linkButton a:active, .linkButton a:focus
@@ -64,6 +65,7 @@ nav a:hover, nav a:active, nav a:focus
 	color:white;
 	text-decoration: none;
 	padding: 0.5rem 0.5rem;
+	display: inline-block;
 }
 
 .viewMoreButton a:hover, .viewMoreButton a:active, .viewMoreButton a:focus
@@ -80,6 +82,7 @@ nav a:hover, nav a:active, nav a:focus
 	text-decoration: none;
 	padding: 0.5rem 0.5rem;
 	margin-right: 1rem;
+	display: inline-block;
 }
 
 .brownLabel a:hover, .brownLabel a:active, .brownLabel a:focus
