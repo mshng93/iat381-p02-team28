@@ -240,6 +240,22 @@
 	{
 		width:100%;
 	}
+
+	.viewMoreButton
+	{
+		text-align: center;
+	}
+
+	.brownLabel
+	{
+		text-align: center;
+	}
+
+	.brownLabel a
+	{
+		margin-top: 0.5rem;
+		width: 100%;
+	}
 }
 
 @media (max-width:850px)
