@@ -43,6 +43,20 @@ nav a:hover, nav a:active, nav a:focus
 	color: white;
 }
 
+.linkButtonLeft a, .linkButtonLeft a:visited
+{
+	background-color:#67c7bb;
+	color:white;
+	text-decoration: none;
+	padding: 0.5rem 0.5rem;
+}
+
+.linkButtonLeft a:hover, .linkButtonLeft a:active, .linkButtonLeft a:focus
+{
+	background-color: #4A8F86;
+	color: white;
+}
+
 /* style for view more link */
 .viewMoreButton a, .viewMoreButton a:visited
 {
