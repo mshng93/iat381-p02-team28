@@ -65,93 +65,94 @@
 						<div class="brownLabel">
 							<h4> TRAVELLER INFORMATION </h4>
 						</div>
-
-						<div class="detailContent">
-
-							<h3 class="boxLabel"> FLIGHT </h3>
 							
-							<form method="post" action="#" id="contact-form">
-								<ul>
-									<li><h4>Traveller 1, Adult, Primary Contact</h4>
-										<input type="text" name="form-name" placeholder="Jane Doe">
-										<h4>Phone Number</h4>
-										<input type="text" name="form-name" placeholder="###-###-####">
-									</li>
+						<form method="post" action="#" id="contact-form">
+							<ul>
+								<li>
+									<label for="form-traveller1"> Traveller 1 (Primary Contact) </label>
+									<input type="text" name="form-name" placeholder="Jane Doe">
+								</li>
 
-									<li><h4>Traveller 2</h4>
-										<input type="text" name="form-name" placeholder="Kevin Park">
-									</li>
+								<li>
+									<label for="form-phone"> Number we can reach you </label>
+									<input type="text" name="form-name" placeholder="604-222-2222">
+								</li>
 
-									<li><h4>Traveller 3</h4>
-										<input type="text" name="form-name" placeholder="Rose Smith">
-									</li>
+								<li>
+									<label for="form-email"> Your email </label>
+									<input type="text" name="form-email" placeholder="janedoe@bonvoyage.com">
+								</li>
 
-									<li><h4>Traveller 4</h4>
-										<input type="text" name="form-name" placeholder="Aaron Cole">
-									</li>
+								<li>
+									<label for="form-traveller2"> Traveller 2 </label>
+									<input type="text" name="form-name2" placeholder="Kevin Park">
+								</li>
 
-								</ul>
+								<li>
+									<label for="form-traveller3"> Traveller 3 </label>
+									<input type="text" name="form-name3" placeholder="Rose Smith">
+								</li>
 
-							<h3 class="boxLabel"> HOTEL </h3>
+								<li>
+									<label for="form-traveller 4"> Traveller 4 </label>
+									<input type="text" name="form-name4" placeholder="Aaron Cole">
+								</li>
 
-							<form method="post" action="#" id="contact-form">
-								<ul>
-									<li>
-										<h4>Room 1: 2 Queen Sized Beds</h4>
-										<h5>Please infom us of who will be checking in, must be age 18+</h5>
-									</li>
+							</ul>
+						</form>
 
-									<li>
-										<label for="form-name"> Full Name </label>
-										<input type="text" name="form-name" placeholder="Jane Doe">
-										<label for="form-name"> Phone Number </label>
-										<input type="text" name="form-name" placeholder="###-###-####">
-									</li>
-								</ul>
-							</form>
+						<div class="brownLabel">
+							<h4> PAYMENT INFORMATION (BonVoyage will not save your save information) </h4>
+						</div>
 
-							<h3 class="boxLabel"> CHOOSE YOUR PAYMENT METHOD </h3>
+						<form method="post" action="#" id="payment-method">
+							<ul>
+								<li>
+									<h4> Choose Payment Method </h4>
+								</li>
 
-								<h5>**BonVoyage will not save your save information</h5>
-								<p> 
-									<input type="radio" name="" value=""> VISA <br>
-								 	<input type="radio" name="" value=""> Mastercard <br>
+								<li>
+									<input type="radio" name="paymentMethod" value="VISA"> VISA
+								</li>
+
+								<li>
+									<input type="radio" name="" value=""> Mastercard
+								</li>
+
+								<li>
 									<input type="radio" name="" value=""> American Express
-								</p><br>
+								</li>
+							</ul>
+						</form>
 
-							<form method="post" action="#" id="contact-form">
-								<ul>
-									<li>
-										<label for="form-name"> Card Number </label><br>
-										<input type="text" name="form-name" placeholder="#### #### #### ####">
-									</li>
+						<form method="post" action="#" id="contact-form">
+							<ul>
+								<li>
+									<label for="form-card"> Card Number (no space)</label>
+									<input type="text" name="form-card" placeholder="0000123456789999">
+								</li>
 
-									<li>
-										<label for="form-name"> Expiration Month/Year </label><br>
-										<input type="text" name="form-name" placeholder="04/16">
-									</li>
+								<li>
+									<label for="form-expiration"> Expiration Month/Year </label>
+									<input type="text" name="form-expiration" placeholder="04/16">
+								</li>
 
-									<li>
-										<label for="form-name"> Security Code </label><br>
-										<input type="text" name="form-name" placeholder="###">
-									</li>
-								</ul>
-							</form>
+								<li>
+									<label for="form-code"> Security Code </label>
+									<input type="text" name="form-code" placeholder="123">
+								</li>
 
-							<h3 class="boxLabel"> BILLING INFORMATION </h3><br>
+								<li>
+									<label for="form-nameCc"> Name on Card </label>
+									<input type="text" name="form-nameCc" placeholder="Jane Doe">
+								</li>
 
-							<form method="post" action="#" id="contact-form">
-								<ul>
-									<li>
-										<label for="form-name"> Contact Name </label>
-										<input type="text" name="form-name" placeholder="Jane Doe">
-										<label for="form-name"> Contact Email </label>
-										<input type="text" name="form-name" placeholder="janedoe@gmail.com">
-									</li>
-								</ul>
-							</form>
-
-						</div> <!-- closing detailContent --> 
+								<li>
+									<label for="form-address"> Billing Address </label>
+									<input type="text" name="form-address" placeholder="123 Maplewood Rd">
+								</li>
+							</ul>
+						</form>
 
 						<div class="linkButton">
 							<a href="vacation_paid.html"> CONFIRM BOOKING AND PAYMENT </a>
@@ -166,34 +167,34 @@
 
 				<div class="col-1of2right">
 
-					<div class="floatingBox">
-						<div class="brownLabel">
-							<h4>TRIP SUMMARY</h4>
-						</div>
+					<div class="fixed">
+						<div class="floatingBox">
+							<div class="brownLabel">
+								<h4>TRIP SUMMARY</h4>
+							</div>
 
-						<div class="detailContent">
+							<p>Vacation Package Adventure in Tokyo</p>
+							<p>Flight to Tokyo</p>
+							<p>Tickets for 4, WestJet Canada</p>
+							<p>Hyatt Hotel 5 Days, 4 Nights</p>
 
-							<p>Vacation Package Adventure in Tokyo</p><br>
-							<p>Flight to Tokyo</p><br>
-							<p>Tickets for 4, WestJet Canada</p><br>
-							<p>Hyatt Hotel 5 Days, 4 Nights</p><br>
-
-							<h3 class="boxLabel">REVIEW PRICING</h3><br>
+							<h3>REVIEW PRICING</h3>
 							
 							<h4>Vacation Package: $1499</h4>
 							<h4>Taxes: $74.95</h4>
-							<h4>Savings: $300</h4><br>
+							<h4>Savings: $300</h4>
 
 							<div class="optionBottomBar">
 								<h3>Total: $1573.95</h3>
 							</div>
+							
 						</div>
 
-					</div> <!-- end of floatingBox -->
+					</div> <!-- end of fixed -->
 
 				</div><!--end of right column-->
 
-			</div><!--END OF CONTENT-->
+			</div><!--END OF GRID-->
 
 
 			<!-- footer part start -->
