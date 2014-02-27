@@ -66,6 +66,7 @@ nav a:hover, nav a:active, nav a:focus
 	text-decoration: none;
 	padding: 0.5rem 0.5rem;
 	display: inline-block;
+	text-align: center;
 }
 
 .viewMoreButton a:hover, .viewMoreButton a:active, .viewMoreButton a:focus
@@ -138,12 +139,6 @@ h5
 	font-weight: thin;
 }
 
-h6
-{
-	text-decoration: none;
-	font-size:0.7rem;
-}
-
 p 
 {
 	font-size:1rem;
@@ -211,6 +206,7 @@ form
 	width: 100%;
 	height: 10rem;
 	padding: 0.5rem 1rem;
+	display: inline-block;
 }
 
 #contact-form button
