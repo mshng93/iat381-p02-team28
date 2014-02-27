@@ -420,6 +420,7 @@ div .optionContent
 	margin-top: 0.5rem;
 	display: inline-block;
 	width: 100%;
+	padding-left:1rem;
 }
 
 .col-2of2
