@@ -17,27 +17,43 @@
 	margin: 0;
 }
 
-.top
+#top
 {
+	width: 100%;
 	display: inline-block;
-	width: 30%;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	margin-left: 1rem;
+}
+
+.logo
+{
+	width: 40%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 1rem;
+	float: left;
 }
 
 .buttons
 {
-	display: inline-block;
-	float: right;
-	margin-right: 1rem;
+
+	width: 60%;
+	padding-right: 1rem;
+	float: left;
 }
 
 .menu
 {
+	width: 20%;
+	float: right;
 	display: inline-block;
 	margin-top: 2.4rem;
 	margin-bottom: 2rem;
+	text-align: center;
+	padding-left: 0.3rem;
+}
+
+.menu a
+{
+	width: 100%;
 }
 
 .col-1of1
@@ -202,7 +218,7 @@
 		display: none;
 	}
 
-	.top
+	.logo
 	{
 		width: 100%;
 	}
