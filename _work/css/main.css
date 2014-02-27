@@ -159,6 +159,11 @@ img
 	max-width: 100%;
 }
 
+.lightGrayLabel img
+{
+	margin-right: 0.5rem;
+}
+
 figure
 {
 	margin-left: 0;
