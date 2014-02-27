@@ -86,7 +86,7 @@
 /* styling 2 column grid with different width */
 .col-1of2left
 {
-	width: 60%;
+	width: 70%;
 	padding: 0 1rem;
 }
 
@@ -97,7 +97,7 @@
 
 .col-1of2right
 {
-	width: 40%;
+	width: 30%;
 	padding-right: 1rem;
 }
 
