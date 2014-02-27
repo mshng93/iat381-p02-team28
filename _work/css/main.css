@@ -228,6 +228,28 @@ button:hover
 	color: white;
 }
 
+#payment-method ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#payment-method li
+{
+	margin-bottom: 0.5rem;
+	padding: 0.5rem 0;
+	border-bottom: 2px solid #e3e3e3;
+}
+
+#payment-method label
+{
+	width: 100%;
+	float: left;
+	padding-right: 1rem;
+	padding-bottom: 0.5rem;
+}
+
 /* ------------------------------------------- INDEX --------------------------------------------------- */
 
 .lightGrayLabel h4
@@ -240,4 +262,12 @@ button:hover
 .floatingBox figure
 {
 	margin-bottom: 0.5rem;
+}
+
+/* ---------------------------------------- BOF FOLLOW SCROLL ------------------------------------------- */
+
+.fixed
+{
+	position: fixed;
+	top: 13rem;
 }
