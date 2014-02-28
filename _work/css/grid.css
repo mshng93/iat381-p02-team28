@@ -48,7 +48,7 @@
 .col-1of3 
 {
 	width: 33.333%;
-	padding: 1rem;
+	padding-bottom: 1rem;
 }
 
 /* styling 2 column grid with different width */
