@@ -21,39 +21,7 @@
 {
 	width: 100%;
 	display: inline-block;
-}
-
-.logo
-{
-	width: 40%;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	padding-left: 1rem;
-	float: left;
-}
-
-.buttons
-{
-
-	width: 60%;
-	padding-right: 1rem;
-	float: left;
-}
-
-.menu
-{
-	width: 20%;
-	float: right;
-	display: inline-block;
-	margin-top: 2.4rem;
-	margin-bottom: 2rem;
-	text-align: center;
-	padding-left: 0.3rem;
-}
-
-.menu a
-{
-	width: 100%;
+	padding: 0 1rem;
 }
 
 .col-1of1
@@ -99,6 +67,27 @@
 {
 	width: 35%;
 	padding-right: 1rem;
+}
+
+.col-1of8
+{
+	width: 12.5%;
+	padding-left: 0.3rem;
+	margin-top: 2.4rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.col-1of8 a
+{
+	width: 100%;
+}
+
+.col-3of8
+{
+	width: 37.5%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .linkButton
@@ -191,15 +180,7 @@
 /* when the display has a width less than 490px */
 @media (max-width:1070px) 
 {
-	.buttons
-	{
-		float: none;
-		width: 100%;
-		margin: 0;
-		text-align: center;
-	}
-
-	.menu
+	.col-1of8
 	{
 		margin-bottom: 0.5rem;
 		margin-top: 0;
@@ -207,7 +188,7 @@
 		width: 100%;
 	}
 
-	.menu a
+	.col-1of8 a
 	{
 		width: 100%;
 	}
@@ -218,7 +199,7 @@
 		display: none;
 	}
 
-	.logo
+	.col-3of8
 	{
 		width: 100%;
 	}
