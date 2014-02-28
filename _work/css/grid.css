@@ -272,6 +272,11 @@
 		margin-top: 0.5rem;
 		width: 100%;
 	}
+
+	.wrapper
+	{
+		width: 90%;
+	}
 }
 
 @media (max-width:850px)
