@@ -310,6 +310,11 @@
 	{
 		padding-left: 1rem;
 	}
+
+	.col-1of4
+	{
+		width: 100%;
+	}
 }
 
 @media (max-width:1210px)
