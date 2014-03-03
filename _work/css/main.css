@@ -338,6 +338,12 @@ div.travelAnywhere
 	color: white;
 }
 
+div.travelAnywhere a
+{
+	color: white;
+	text-decoration: none;
+}
+
 .travelAnywhere .adButton
 {
 	width: 30%;
@@ -376,6 +382,12 @@ div.allInclusive
 	margin-bottom: 0.5rem;
 }
 
+div.allInclusive a
+{
+	color: white;
+	text-decoration: none;
+}
+
 .allInclusive .adButton
 {
 	margin-top: 8rem;
@@ -400,6 +412,12 @@ div.mexicoPromo
 	background-size: cover;
 	color: white;
 	margin-bottom: 0.5rem;
+}
+
+div.mexicoPromo a
+{
+	color: white;
+	text-decoration: none;
 }
 
 .mexicoPromo .adButton
@@ -429,6 +447,12 @@ div.disneyPromo
 	overflow: auto;
 }
 
+div.disneyPromo a
+{
+	color: white;
+	text-decoration: none;
+}
+
 .disneyPromo .adButton
 {
 	margin-top: 20rem;
@@ -447,4 +471,117 @@ div.disneyPromo
 	padding: 0.5rem 1rem;
 	background-color: rgba(102,0,0,0.7);
 	float: right;
+}
+
+/* ---------------------------------------- VACATION WIZARD ------------------------------------------- */
+
+p.wizard
+{
+	padding-bottom: 0.5rem;
+}
+
+p.wizard-end
+{
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #e3e3e3;
+	margin-bottom: 1rem;
+}
+
+div.amazingTokyo
+{
+	background-image: url('../images/package-amazingTokyo.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	color: white;
+	margin-bottom: 0.5rem;
+	overflow: auto;
+}
+
+div.amazingTokyo a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.amazingTokyo .adButton
+{
+	width: 100%;
+	background-color: rgba(0,153,153,0.7);
+	padding: 1rem;
+	margin-bottom: 10rem;
+}
+
+.amazingTokyo .adButton:hover
+{
+	width: 100%;
+	background-color: rgba(0,102,102,0.7);
+	padding: 1rem;
+	margin-bottom: 10rem;
+}
+
+div.uniqueCayoCoco
+{
+	background-image: url('../images/package-cayoCoco.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	color: white;
+	margin-bottom: 0.5rem;
+	overflow: auto;
+}
+
+div.uniqueCayoCoco a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.uniqueCayoCoco .adButton
+{
+	width: 100%;
+	background-color: rgba(0,153,153,0.7);
+	padding: 1rem;
+	margin-bottom: 10rem;
+}
+
+.uniqueCayoCoco .adButton:hover
+{
+	width: 100%;
+	background-color: rgba(0,102,102,0.7);
+	padding: 1rem;
+	margin-bottom: 10rem;
+}
+
+div.romanticParis
+{
+	background-image: url('../images/package-romanticParis.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	color: white;
+	margin-bottom: 0.5rem;
+	overflow: auto;
+}
+
+div.romanticParis a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.romanticParis .adButton
+{
+	width: 100%;
+	background-color: rgba(0,153,153,0.7);
+	padding: 1rem;
+	margin-bottom: 10rem;
+}
+
+.romanticParis .adButton:hover
+{
+	width: 100%;
+	background-color: rgba(0,102,102,0.7);
+	padding: 1rem;
+	margin-bottom: 10rem;
 }
