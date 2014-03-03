@@ -87,6 +87,11 @@
 	width: 100%;
 }
 
+.col-1of8 figure
+{
+	display: none;
+}
+
 .col-3of8
 {
 	width: 37.5%;
@@ -194,14 +199,38 @@
 
 /* ----------------------------------- MEDIA QUERY ------------------------------------------------- */
 
-/* when the display has a width less than 490px */
+/* when the display has a width less than pixel stated */
+@media (max-width:1228px)
+{
+	.col-1of8 .menu
+	{
+		background-image: url('../images/icon-arrowRight.gif');
+		background-repeat: no-repeat;
+		display: none;
+	}
+
+	.col-1of8 figure
+	{
+		display: inherit;
+		margin-top: -0.5rem;
+	}
+}
+
+@media (max-width:1210px)
+{
+	.detailContent .col-1of4
+	{
+		padding-top: 1rem;
+		width: 50%;
+	}
+}
+
 @media (max-width:1070px) 
 {
 	.col-1of8
 	{
 		margin-bottom: 0.5rem;
 		margin-top: 0;
-		padding-left: 1rem;
 		width: 100%;
 	}
 
@@ -281,6 +310,16 @@
 		position: relative;
 		top: 0;
 	}
+
+	.travelAnywhere .adButton
+	{
+		width: 40%;
+	}
+
+	.travelAnywhere .adButton:hover
+	{
+		width: 40%;
+	}
 }
 
 @media (max-width:850px)
@@ -317,14 +356,6 @@
 	}
 }
 
-@media (max-width:1210px)
-{
-	.detailContent .col-1of4
-	{
-		width: 50%;
-	}
-}
-
 @media (max-width:625px)
 {
 	.detailContent .col-1of4
@@ -347,6 +378,16 @@
 	{
 		overflow: auto;
 		text-align: center;
+	}
+
+	.travelAnywhere .adButton
+	{
+		width: 50%;
+	}
+
+	.travelAnywhere .adButton:hover
+	{
+		width: 50%;
 	}
 }
 
