@@ -118,7 +118,6 @@ h2
 {
 	text-decoration: none;
 	font-size:1.7rem;
-	border-bottom: 1px solid #e3e3e3;
 	margin-bottom: 0.5rem;
 }
 
@@ -267,10 +266,49 @@ button:hover
 	margin-bottom: 0.5rem;
 }
 
-/* ---------------------------------------- BOF FOLLOW SCROLL ------------------------------------------- */
+/* ---------------------------------------- FOR FIXED SCROLL ------------------------------------------- */
 
 .fixed
 {
 	position: fixed;
 	top: 13rem;
+}
+
+/* ---------------------------------------- IMAGES HOVER ------------------------------------------- */
+
+div.travelAnywhere
+{
+	background-image: url('../images/travelAnywhere.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+}
+
+.travelAnywhere .adButton
+{
+	width: 30%;
+	background-color: rgba(0,153,153,0.7);
+	padding: 1rem;
+}
+
+.travelAnywhere .adButton:hover
+{
+	width: 30%;
+	background-color: rgba(0,102,102,0.7);
+	padding: 1rem;
+}
+
+.adButton h3
+{
+	border-bottom: 1px solid white;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 1.7rem;
+}
+
+.adButton p
+{
+	padding-bottom: 1rem;
+	padding-top: 1rem;
 }
