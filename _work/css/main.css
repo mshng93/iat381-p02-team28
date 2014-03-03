@@ -110,32 +110,27 @@ nav a:hover, nav a:active, nav a:focus
 /*font sizes relative to each other for whole site*/
 h1
 {
-	text-decoration: none;
 	font-size:2.5rem;
 }
 
 h2
 {
-	text-decoration: none;
 	font-size:1.7rem;
 	margin-bottom: 0.5rem;
 }
 
 h3
 {
-	text-decoration: none;
 	font-size:1.4rem;
 }
 
 h4
 {
-	text-decoration: none;
 	font-size:1rem;
 }
 
 h5
 {
-	text-decoration: none;
 	font-size:0.8rem;
 	font-weight: thin;
 }
@@ -267,6 +262,61 @@ form
 .floatingBox figure
 {
 	margin-bottom: 0.5rem;
+}
+
+.deal, .deal:active
+{
+	width: 100%;
+	display: inline-block;
+}
+
+.deal:hover, .deal:active, .deal:focus
+{
+	background-color: #f7f7f7;
+}
+
+.deal h4
+{
+	padding: 0.5rem 0;
+	border-bottom: 1px solid #e3e3e3;
+	width: 70%;
+	float: left;
+}
+
+h4.dealInfo-new
+{
+	padding: 0.5rem 0;
+	width: 30%;
+	border-bottom: 1px solid #e3e3e3;
+	text-align: center;
+	color: #CC0066;
+	border-left: 1px solid #e3e3e3;
+}
+
+h4.dealInfo
+{
+	padding: 0.5rem 0;
+	width: 30%;
+	border-bottom: 1px solid #e3e3e3;
+	text-align: center;
+	color: #3399FF;
+	border-left: 1px solid #e3e3e3;
+}
+
+.linkButton
+{
+	width: 30%;
+	text-align: center;
+}
+
+.linkButton a.seeMoreButton-index
+{
+	width: 100%;
+}
+
+a .deal > h4.dealName
+{
+	color: #675845;
 }
 
 /* ---------------------------------------- FOR FIXED SCROLL ------------------------------------------- */
