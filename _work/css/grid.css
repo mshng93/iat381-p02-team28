@@ -227,27 +227,10 @@
 
 @media (max-width:1070px) 
 {
-	.col-1of8
-	{
-		margin-bottom: 0.5rem;
-		margin-top: 0;
-		width: 100%;
-	}
-
-	.col-1of8 a
-	{
-		width: 100%;
-	}
-
 	/* make the carousel image dissapear */
 	.carouselImage
 	{
 		display: none;
-	}
-
-	.col-3of8
-	{
-		width: 100%;
 	}
 
 	.col-1of2
@@ -351,6 +334,24 @@
 	}
 
 	.col-1of4
+	{
+		width: 100%;
+	}
+
+	.col-1of8
+	{
+		margin-bottom: 0.5rem;
+		margin-top: 0;
+		width: 20%;
+	}
+
+	.col-1of8 a
+	{
+		width: 100%;
+		display: inline-block;
+	}
+
+	.col-3of8
 	{
 		width: 100%;
 	}
