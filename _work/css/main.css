@@ -218,16 +218,19 @@ form
 #contact-form button
 {
 	float: right;
-	width: 50%;
 	background-color: #67c7bb;
 	color:white;
 	padding: 0.5rem 1rem;
+	border: 0;
+	font-size: 0.8rem;
 }
 
-button:hover
+#contact-form button:hover
 {
-	background-color: #9c876b;
+	background-color: #4A8F86;
 	color: white;
+	border: 0;
+	font-size: 0.8rem;
 }
 
 #payment-method ul
@@ -274,7 +277,7 @@ button:hover
 	top: 13rem;
 }
 
-/* ---------------------------------------- IMAGES HOVER ------------------------------------------- */
+/* ---------------------------------------- IMAGES LABEL HOVER ------------------------------------------- */
 
 div.travelAnywhere
 {
@@ -311,4 +314,87 @@ div.travelAnywhere
 {
 	padding-bottom: 1rem;
 	padding-top: 1rem;
+}
+
+div.allInclusive
+{
+	background-image: url('../images/allInclusive.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	color: white;
+	margin-bottom: 0.5rem;
+}
+
+.allInclusive .adButton
+{
+	margin-top: 8rem;
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: rgba(0,128,255,0.7);
+}
+
+.allInclusive .adButton:hover
+{
+	margin-top: 8rem;
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: rgba(0,76,153,0.7);
+}
+
+div.mexicoPromo
+{
+	background-image: url('../images/mexico.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	color: white;
+	margin-bottom: 0.5rem;
+}
+
+.mexicoPromo .adButton
+{
+	margin: 1rem 0;
+	width: 45%;
+	padding: 0.5rem 1rem;
+	background-color: rgba(255,153,51,0.7);
+}
+
+.mexicoPromo .adButton:hover
+{
+	margin: 1rem 0;
+	width: 45%;
+	padding: 0.5rem 1rem;
+	background-color: rgba(153,76,0,0.7);
+}
+
+div.disneyPromo
+{
+	background-image: url('../images/index-disney.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	color: white;
+	margin-bottom: 0.5rem;
+	overflow: auto;
+}
+
+.disneyPromo .adButton
+{
+	margin-top: 20rem;
+	margin-bottom: 1rem;
+	width: 70%;
+	padding: 0.5rem 1rem;
+	background-color: rgba(204,0,0,0.7);
+	float: right;
+}
+
+.disneyPromo .adButton:hover
+{
+	margin-top: 20rem;
+	margin-bottom: 1rem;
+	width: 70%;
+	padding: 0.5rem 1rem;
+	background-color: rgba(102,0,0,0.7);
+	float: right;
 }
