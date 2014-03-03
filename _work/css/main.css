@@ -281,7 +281,7 @@ form
 
 div.travelAnywhere
 {
-	background-image: url('../images/travelAnywhere.jpg');
+	background-image: url('../images/index-travelAnywhere.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -318,7 +318,7 @@ div.travelAnywhere
 
 div.allInclusive
 {
-	background-image: url('../images/allInclusive.jpg');
+	background-image: url('../images/index-allInclusive.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -344,7 +344,7 @@ div.allInclusive
 
 div.mexicoPromo
 {
-	background-image: url('../images/mexico.jpg');
+	background-image: url('../images/index-mexico.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
