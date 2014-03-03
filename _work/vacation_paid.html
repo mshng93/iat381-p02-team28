@@ -34,24 +34,39 @@
 				<!-- navigation part -->
 				<nav>
 
-					<div class="col-1of8">
-						<a href="index.html">HOME</a>
+				    <div class="col-1of8">
+						<a class="menu" href="index.html">HOME</a>
+						<figure>
+							<a href="index.html"><img src="images/icon-home.png" alt="Bon Voyage Home"></a>
+						</figure>
 					</div>
 
 					<div class="col-1of8">
-						<a href="vacation_wizard.html">PACKAGES</a>
+						<a class="menu" href="vacation_wizard.html">PACKAGES</a>
+						<figure>
+							<a href="vacation_wizard.html"><img src="images/icon-packages.png" alt="Bon Voyage Vacation Packages"></a>
+						</figure>
 					</div>
 
 					<div class="col-1of8">
-						<a href="gallery.html">GALLERY</a>
+						<a class="menu" href="gallery.html">GALLERY</a>
+						<figure>
+							<a href="gallery.html"><img src="images/icon-gallery.png" alt="Bon Voyage Picture Gallery"></a>
+						</figure>
 					</div>
 
 					<div class="col-1of8">
-						<a href="about_us.html">ABOUT US</a>
+						<a class="menu" href="about_us.html">ABOUT US</a>
+						<figure>
+							<a href="about_us.html"><img src="images/icon-aboutUs.png" alt="About Bon Voyage"></a>
+						</figure>
 					</div>
 
 					<div class="col-1of8">
-						<a href="contact_us.html">CONTACT US</a>
+						<a class="menu" href="contact_us.html">CONTACT US</a>
+						<figure>
+							<a href="contact_us.html"><img src="images/icon-contactUs.png" alt="Contact Bon Voyage"></a>
+						</figure>
 					</div>
 
 				</nav> <!-- end of nav grid -->
@@ -255,33 +270,53 @@
 				<div class="col-1of2right">
 					
 					<div class="floatingBox">
-						<figure>
-							<img src="images/allInclusive.jpg" width="1000" height="800" alt="50% Discounts for All Inclusive Resort">
-						</figure>
-						<figure>
-							<img src="images/mexico.jpg" width="1000" height="500" alt="Special Fares to Mexico">
-						</figure>
-						<figure>
-							<img src="images/china.jpg" width="1000" height="1300" alt="Celebrate New Year in China">
-						</figure>
+						<div class="mexicoPromo">
+							&nbsp;
+							<a href="vacation_packages.html">
+								<div class="adButton">
+									<h4> Start planning your Mexico family getaway now! </h4>
+								</div>
+							</a>
+							&nbsp;
+						</div>
+
+						<div class="disneyPromo">
+							&nbsp;
+							<a href="vacation_packages.html">
+								<div class="adButton">
+									<h4> Save 10% to go to the happiest place on earth with Bon Voyage! </h4>
+								</div>
+							</a>
+							&nbsp;
+						</div>
 					</div> <!-- closing floatingBox -->
 
 					<div class="floatingBox">
 
-						<div class="lightGrayLabel">
-							<h3> FOLLOW US </h3>
-							<figure>
-								<img src="images/socialmedia.png" alt="Follow Bon Voyage Travel">
-							</figure>
-						</div>
-						<div class="lightGrayLabel">
-							<h3> Always be the first to know about our deals </h3>
-							<form method="post" action="#" id="subscribe">
-								<label for="form-name"> Subscribe: </label>
-								<input type="text" id="form-name" name="form-name" placeholder="janedoe@gmail.com">
-								<button class="submit" type="submit"> SUBMIT EMAIL </button>
-							</form>
-						</div>
+						<h3> Follow Us </h3>
+						<figure>
+							<img src="images/socialmedia.png" alt="Follow Bon Voyage Travel">
+						</figure>
+					</div>
+
+
+					<div class="floatingBox">	
+						<h3> Always be the first to know about our deals </h3>
+
+						<form method="post" action="#" id="contact-form">
+							
+							<ul>
+								<li>
+									<label for="form-name"> Subscribe: </label>
+									<input type="text" id="form-name" name="form-name" placeholder="janedoe@gmail.com">
+								</li>
+
+								<li>
+									<button class="submit" type="submit"> SUBMIT EMAIL </button>
+								</li>
+							</ul>
+						</form>
+
 					</div> <!-- closing floatingBox -->
 
 				</div><!--end of right column-->
