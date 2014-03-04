@@ -383,12 +383,17 @@
 
 	.travelAnywhere .adButton
 	{
-		width: 50%;
+		width: 60%;
 	}
 
 	.travelAnywhere .adButton:hover
 	{
-		width: 50%;
+		width: 60%;
+	}
+
+	.col-1of3
+	{
+		width: 100%;
 	}
 }
 
