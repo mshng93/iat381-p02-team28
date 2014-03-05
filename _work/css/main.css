@@ -582,7 +582,7 @@ div.romanticParis a
 {
 	padding-left: 1rem;
 	background: url(../images/icon-home.png) no-repeat left;
-	background-size: auto 30px;
+	background-size: contain;
 }
 
 .packageIcon
