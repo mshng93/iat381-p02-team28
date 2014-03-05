@@ -75,9 +75,9 @@
 
 .col-1of8
 {
-	width: 12.5%;
+	width: 15%;
 	padding-left: 0.3rem;
-	margin-top: 2.4rem;
+	margin-top: 2.8rem;
 	margin-bottom: 2rem;
 	text-align: center;
 }
@@ -87,16 +87,16 @@
 	width: 100%;
 }
 
-.col-1of8 figure
-{
-	display: none;
-}
-
 .col-3of8
 {
-	width: 37.5%;
+	width: 25%;
 	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
+}
+
+.col-1of8 .collapsed
+{
+	display: none;
 }
 
 .col-1of4
@@ -202,17 +202,14 @@
 /* when the display has a width less than pixel stated */
 @media (max-width:1228px)
 {
-	.col-1of8 .menu
-	{
-		background-image: url('../images/icon-arrowRight.gif');
-		background-repeat: no-repeat;
-		display: none;
-	}
-
-	.col-1of8 figure
+	.col-1of8 .collapsed
 	{
 		display: inherit;
-		margin-top: -0.5rem;
+	}
+
+	.col-1of8 .menu
+	{
+		display: none;
 	}
 }
 
@@ -227,21 +224,10 @@
 
 @media (max-width:1070px) 
 {
-	/* make the carousel image dissapear */
-	.carouselImage
-	{
-		display: none;
-	}
-
 	.col-1of2
 	{
 		width: 100%;
 		padding-left: 1rem;
-	}
-
-	.optionContent figure
-	{
-		width: 100%;
 	}
 
 	.body
@@ -268,11 +254,6 @@
 	}
 
 	.viewMoreButton
-	{
-		text-align: center;
-	}
-
-	.brownLabel
 	{
 		text-align: center;
 	}
@@ -341,7 +322,7 @@
 	.col-1of8
 	{
 		margin-bottom: 0.5rem;
-		margin-top: 0;
+		margin-top: 1rem;
 		width: 20%;
 	}
 
@@ -353,7 +334,7 @@
 
 	.col-3of8
 	{
-		width: 100%;
+		display: none;
 	}
 }
 
@@ -395,6 +376,16 @@
 	{
 		width: 100%;
 	}
+
+	.wrapper
+	{
+		width: 100%;
+	}
+}
+
+@media (max-width:400px)
+{
+	
 }
 
 /* --------------------------------------- PACKAGES PAGE ----------------------------------------- */
