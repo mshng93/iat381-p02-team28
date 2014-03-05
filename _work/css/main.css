@@ -576,6 +576,32 @@ div.romanticParis a
 }
 
 
+/* ---------------------------------------- FOR ABOUT US PAGE ------------------------------------------- */
+
+.listValues, .listValues:active
+{
+	width: 100%;
+	display: inline-block;
+}
+
+.listValues:hover, .listValues:active, .listValues:focus
+{
+	background-color: #f7f7f7;
+}
+
+.listValues h4
+{
+	padding: 0.5rem 0;
+	border-bottom: 1px solid #e3e3e3;
+	width: 100%;
+	float: left;
+}
+
+a .listValues > h4.valueName
+{
+	color: #827362;
+}
+
 /* ---------------------------------------- FOR NAVIGATION BAR ------------------------------------------- */
 
 .homeIcon
