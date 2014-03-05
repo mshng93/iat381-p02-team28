@@ -73,6 +73,7 @@
 	padding-right: 1rem;
 }
 
+/* styling for nav bar button */
 .col-1of6
 {
 	width: 15%;
@@ -87,16 +88,16 @@
 	width: 100%;
 }
 
+.col-1of6 .collapsed
+{
+	display: none;
+}
+
 .col-1of6-logo
 {
 	width: 25%;
 	padding-top: 1.5rem;
 	padding-bottom: 0.5rem;
-}
-
-.col-1of6 .collapsed
-{
-	display: none;
 }
 
 .col-1of6-logo .collapsed
