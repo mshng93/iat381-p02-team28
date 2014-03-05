@@ -3,7 +3,7 @@ body
 	font-family: 'Lato', sans-serif;
 	font-size: 10pt;
 	background-image: url(../images/travel_wallpaper.jpg);
-	color: #675845;
+	color: #827362;
 	background-repeat: no-repeat;
 	background-position:top center;
 	background-attachment:fixed;
@@ -17,7 +17,7 @@ nav a, nav a:visited
 {
 	display: inline-block;
 	background-color:#67c7bb;
-	color: white;
+	color: #fff;
 	text-decoration: none;
 	padding: 0.5rem 1rem;
 }
@@ -111,17 +111,18 @@ nav a:hover, nav a:active, nav a:focus
 h1
 {
 	font-size:2.5rem;
+	color: #0bb9b9;
 }
 
 h2
 {
-	font-size:1.7rem;
+	font-size:1.6rem;
 	margin-bottom: 0.5rem;
 }
 
 h3
 {
-	font-size:1.4rem;
+	font-size:1.3rem;
 }
 
 h4
@@ -158,6 +159,12 @@ img
 .lightGrayLabel img
 {
 	margin-right: 0.5rem;
+	float: left;
+}
+
+.lighGrayLabel p
+{
+	display: inline-block;
 }
 
 figure
@@ -183,7 +190,7 @@ form
 {
 	font-family: 'Lato', sans-serif;
 	font-size: 1rem;
-	color: #675845;
+	color: #827362;
 }
 
 /* input area style */
@@ -316,7 +323,7 @@ h4.dealInfo
 
 a .deal > h4.dealName
 {
-	color: #675845;
+	color: #827362;
 }
 
 /* ---------------------------------------- FOR FIXED SCROLL ------------------------------------------- */
@@ -336,12 +343,6 @@ div.travelAnywhere
 	background-position: center center;
 	background-size: cover;
 	color: white;
-}
-
-div.travelAnywhere a
-{
-	color: white;
-	text-decoration: none;
 }
 
 .travelAnywhere .adButton
@@ -382,7 +383,7 @@ div.allInclusive
 	margin-bottom: 0.5rem;
 }
 
-div.allInclusive a
+.floatingBox a
 {
 	color: white;
 	text-decoration: none;
@@ -414,12 +415,6 @@ div.mexicoPromo
 	margin-bottom: 0.5rem;
 }
 
-div.mexicoPromo a
-{
-	color: white;
-	text-decoration: none;
-}
-
 .mexicoPromo .adButton
 {
 	margin: 1rem 0;
@@ -445,12 +440,6 @@ div.disneyPromo
 	color: white;
 	margin-bottom: 0.5rem;
 	overflow: auto;
-}
-
-div.disneyPromo a
-{
-	color: white;
-	text-decoration: none;
 }
 
 .disneyPromo .adButton
@@ -584,4 +573,42 @@ div.romanticParis a
 	background-color: rgba(0,102,102,0.7);
 	padding: 1rem;
 	margin-bottom: 10rem;
+}
+
+
+/* ---------------------------------------- FOR NAVIGATION BAR ------------------------------------------- */
+
+.homeIcon
+{
+	padding-left: 1rem;
+	background: url(../images/icon-home.png) no-repeat left;
+	background-size: auto 30px;
+}
+
+.packageIcon
+{
+	padding-left: 1rem;
+	background: url(../images/icon-packages.png) no-repeat left;
+	background-size: contain;
+}
+
+.galleryIcon
+{
+	padding-left: 1rem;
+	background: url(../images/icon-gallery.png) no-repeat left;
+	background-size: contain;
+}
+
+.aboutUsIcon
+{
+	padding-left: 1rem;
+	background: url(../images/icon-aboutUs.png) no-repeat left;
+	background-size: contain;
+}
+
+.contactUsIcon
+{
+	padding-left: 1rem;
+	background: url(../images/icon-contactUs.png) no-repeat left;
+	background-size: contain;
 }
