@@ -346,6 +346,7 @@ nav.inBody
 	{
 		position: relative;
 		top: 0;
+		width: 100%;
 	}
 
 	.col-1of2left
