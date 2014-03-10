@@ -50,6 +50,7 @@ nav a:hover, nav a:active, nav a:focus
 	color:white;
 	text-decoration: none;
 	padding: 0.5rem 0.5rem;
+	display: inline-block;
 }
 
 .linkButtonLeft a:hover, .linkButtonLeft a:active, .linkButtonLeft a:focus
@@ -511,8 +512,7 @@ div.officePromo
 	width: 100%;
 	padding: 0.5rem 1rem;
 	background-color: rgba(0,200,50,0.7);
-	float: left;
-}
+	float: left
 
 .officePromo .adButton:hover
 {
