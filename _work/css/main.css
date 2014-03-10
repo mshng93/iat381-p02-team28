@@ -351,7 +351,7 @@ a .deal > h4.dealName
 .fixed
 {
 	position: fixed;
-	top: 13rem;
+	top: 5.6rem;
 }
 
 /* ---------------------------------------- IMAGES LABEL HOVER ------------------------------------------- */
@@ -862,3 +862,30 @@ figcaption
 	margin-bottom: 0;
 }
 
+/* ---------------------------------------- FOR VACATION BOOKING PAGE -------------------------------------------- */
+
+div.fixed div.floatingBox > h4.tripsummary
+{
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+div.fixed div.floatingBox > p
+{
+	border-bottom: 2px solid #e3e3e3;
+	padding: 0.5rem 0;
+}
+
+h3.tripsummary
+{
+	padding-bottom: 1rem;
+	border-bottom: 2px solid #e3e3e3;
+}
+
+.tripSummaryLabel
+{
+	background-color: gray;
+	padding: 1rem;
+	margin-top: 1rem;
+	color: white;
+}
