@@ -605,3 +605,10 @@ div .optionContent
 	padding: 0.5rem 1rem;
 	width: 100%;
 }
+
+/* --------------------------------------- GALLERY DETAIL ----------------------------------- */
+
+.col-1of3-gallery
+{
+	width: 33.333%;
+}
