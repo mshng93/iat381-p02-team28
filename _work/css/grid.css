@@ -608,15 +608,16 @@ div .optionContent
 
 /* --------------------------------------- GALLERY DETAIL ----------------------------------- */
 
-.col-1of3-insight
+.col-1of3-insight-withmargin
 {
 	width: 32%;
 	margin-left: 2%;
 }
 
-.col-1of3-insight:first-of-type
+.col-1of3-insight
 {
 	margin-left: 0;
+	width: 32%;
 }
 
 .col-1of3-insight img
@@ -649,4 +650,11 @@ figure.insight > figcaption
 	position: absolute;
 	top: 0;
 	background-color: rgba(0,153,153,0.7);
+}
+
+figure.insight > figcaption:hover
+{
+	position: absolute;
+	top: 0;
+	background-color: rgba(0,102,102,0.7);
 }
