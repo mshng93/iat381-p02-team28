@@ -352,6 +352,8 @@ a .deal > h4.dealName
 {
 	position: fixed;
 	top: 5.6rem;
+	width: 26%;
+
 }
 
 /* ---------------------------------------- IMAGES LABEL HOVER ------------------------------------------- */
