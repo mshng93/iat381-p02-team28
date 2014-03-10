@@ -171,6 +171,7 @@ nav.inBody
 	background-color: white;
 	padding: 1rem;
 	margin: 1rem 0;
+	width: 100%;
 	overflow: auto;
 }
 
@@ -328,12 +329,6 @@ nav.inBody
 		width: 90%;
 	}
 
-	.fixed
-	{
-		position: relative;
-		top: 0;
-	}
-
 	.travelAnywhere .adButton
 	{
 		width: 40%;
@@ -347,6 +342,12 @@ nav.inBody
 
 @media (max-width:850px)
 {
+	.fixed
+	{
+		position: relative;
+		top: 0;
+	}
+
 	.col-1of2left
 	{
 		width: 100%;
