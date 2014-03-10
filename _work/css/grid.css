@@ -131,18 +131,11 @@ nav.inBody
 	height: 40px;
 }
 
-
 .col-1of4
 {
 	width:25%;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-}
-
-.col-1of4 img
-{
-	margin-top: 1rem;
-	margin-bottom: 2.5rem;
 }
 
 .linkButton
