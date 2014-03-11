@@ -784,7 +784,7 @@ figure.itinerary
 	position: relative;
 }
 
-figcaption
+figure.itinerary figcaption
 {
 	position: absolute;
 	top: 0;
