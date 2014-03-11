@@ -35,17 +35,19 @@
 	padding-bottom: 1rem;
 }
 
+/* styling for vacation package, even 2 column grid */
 .col-1of2 
 {
-	width: 50%;
+	width: 49%;
 	padding-right: 1rem;
 	margin-top: 1rem;
 }
 
 .col-1of2-padding
 {
-	width: 50%;
-	padding: 0 1rem;
+	width: 49%;
+	margin-right: 2%;
+	padding-left: 1rem;
 	margin-top: 1rem;
 }
 
@@ -295,21 +297,9 @@ nav.inBody
 
 @media (max-width:1070px) 
 {
-	.col-1of2
-	{
-		width: 100%;
-		padding-left: 1rem;
-	}
-
 	.body
 	{
 		background-size: auto 100%;
-	}
-
-	.col-1of2-padding
-	{
-		width: 100%;
-		margin-bottom: 1rem;
 	}
 
 	.linkButton
@@ -428,14 +418,6 @@ nav.inBody
 		padding-top: 0.8rem;
 		width: 16.66%;
 	}
-}
-
-@media (max-width:625px)
-{
-	.detailContent .col-1of4
-	{
-		width: 100%;
-	}
 
 	.linkInsideLabel
 	{
@@ -452,6 +434,30 @@ nav.inBody
 	{
 		overflow: auto;
 		text-align: center;
+	}
+}
+
+@media (max-width:760px)
+{
+	.col-1of2
+	{
+		width: 100%;
+		padding-left: 1rem;
+	}
+
+	.col-1of2-padding
+	{
+		width: 100%;
+		margin-bottom: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+@media (max-width:625px)
+{
+	.detailContent .col-1of4
+	{
+		width: 100%;
 	}
 
 	.travelAnywhere .adButton
