@@ -353,7 +353,7 @@ nav.inBody
 	.col-1of2left
 	{
 		width: 100%;
-		padding-right: 0;
+		padding-right: 1rem;
 	}
 
 	.col-1of2right
