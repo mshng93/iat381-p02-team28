@@ -93,6 +93,23 @@ nav.inBody a:hover, nav a:active, nav a:focus
 	color: white;
 }
 
+/* style for view more link */
+.toTopButton a, .toTopButton a:visited
+{
+	background-color:#DCD0C4;
+	color:#635E58;
+	text-decoration: none;
+	padding: 0.5rem 0.5rem;
+	display: inline-block;
+	text-align: center;
+}
+
+.toTopButton a:hover, .toTopButton a:active, .toTopButton a:focus
+{
+	background-color: #C6BBB0;
+	color: #635E58;
+}
+
 /* style for link in brown label */
 .brownLabel a, .brownLabel a:visited
 {
