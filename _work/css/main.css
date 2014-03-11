@@ -714,6 +714,37 @@ div.valuesPromo a
 	margin-bottom: 20rem;
 }
 
+/*for customer reviews*/
+
+.customerReview, .customerReview:active
+{
+	width: 100%;
+	display: inline-block;
+}
+
+.customerReview:hover, .customerReview:active, .customerReview:focus
+{
+	background-color: rgba(170, 240, 235, 0.3);
+}
+
+.customerReview h4
+{
+	padding: 0.5rem 0;
+	width: 100%;
+	margin-left: 0rem;
+}
+
+a .customerReview > h4.customerName
+{
+	color: #827362;
+}
+
+a.customerReview:hover
+{
+	color: #31E8DD;
+}
+
+
 
 /* ---------------------------------------- FOR NAVIGATION BAR ------------------------------------------- */
 
