@@ -218,6 +218,12 @@ nav.inBody
 	display: none;
 }
 
+.toTopButton a
+{
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
 /* after the class grid, clear styling */
 .grid:after
 {
