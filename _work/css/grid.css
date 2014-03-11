@@ -212,9 +212,10 @@ nav.inBody
 	overflow: auto;
 }
 
-.lightGrayLabel figure
+/* button that only appear when it is in mobile device screen */
+.backtotop
 {
-	/*margin-right: 0.5rem;*/
+	display: none;
 }
 
 /* after the class grid, clear styling */
@@ -434,6 +435,12 @@ nav.inBody
 	{
 		overflow: auto;
 		text-align: center;
+	}
+
+	/* button that only appear when it is in mobile device screen */
+	.backtotop
+	{
+		display: inherit;
 	}
 }
 
