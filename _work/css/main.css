@@ -932,3 +932,16 @@ h3.tripsummary
 	margin-top: 1rem;
 	color: white;
 }
+
+figure.summaryicon
+{
+	width: 20%;
+	display: inline-block;
+	float: left;
+}
+
+.summaryinfo
+{
+	width: 80%;
+	display: inline-block;
+}
