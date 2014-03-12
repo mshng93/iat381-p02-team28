@@ -716,17 +716,6 @@ div.valuesPromo a
 
 /*for customer reviews*/
 
-.customerReview, .customerReview:active
-{
-	width: 100%;
-	display: inline-block;
-}
-
-.customerReview:hover, .customerReview:active, .customerReview:focus
-{
-	background-color: rgba(170, 240, 235, 0.3);
-}
-
 .customerReview h4
 {
 	padding: 0.5rem 0;
@@ -734,16 +723,15 @@ div.valuesPromo a
 	margin-left: 0rem;
 }
 
-a .customerReview > h4.customerName
+.customerReview h4.customerName a
 {
-	color: #827362;
+	color: #67c7bb;
 }
 
-a.customerReview:hover
+.customerReview h4.customerName a:hover
 {
-	color: #31E8DD;
+	color: #4A8F86;
 }
-
 
 
 /* ---------------------------------------- FOR NAVIGATION BAR ------------------------------------------- */
