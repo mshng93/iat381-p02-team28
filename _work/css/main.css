@@ -34,7 +34,7 @@ nav.inBody a, nav a:visited
 	background-color:#67c7bb;
 	color: #fff;
 	text-decoration: none;
-	padding: 0.5rem 1rem;
+	padding: 0.5rem;
 }
 
 nav.inBody a:hover, nav a:active, nav a:focus
@@ -273,15 +273,20 @@ form
 #payment-method ul
 {
 	list-style-type: none;
-	margin: 0;
+	margin: 1rem 0;
 	padding: 0;
 }
 
 #payment-method li
 {
-	margin-bottom: 0.5rem;
-	padding: 0.5rem 0;
-	border-bottom: 2px solid #e3e3e3;
+	margin-left: 2rem;
+	padding: 0;
+}
+
+#payment-method li:first-of-type
+{
+	margin-left: 0;
+	padding-bottom: 0.5rem;
 }
 
 #payment-method label
