@@ -905,6 +905,7 @@ figure.summaryicon
 	display: inline-block;
 	float: left;
 	overflow: hidden;
+	margin-bottom: 0;
 }
 
 .summaryinfo
