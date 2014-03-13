@@ -13,7 +13,7 @@ body
 	background-size: cover;
 }
 
-nav a, nav a:visited
+nav a.menu, nav a.menu:visited
 {
 	display: inline-block;
 	background-color:#67c7bb;
@@ -22,13 +22,23 @@ nav a, nav a:visited
 	padding: 0.5rem 1rem;
 }
 
-nav a:hover, nav a:active, nav a:focus
+nav a.menu:hover, nav a.menu:active, nav a.menu:focus
 {
 	background-color: #4A8F86;
 	color: white;
 }
 
-nav.inBody a, nav a:visited
+/*selected class*/
+nav a.menu-selected, nav a:visited
+{
+	display: inline-block;
+	background-color:#4A8F86;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+}
+
+nav.inBody a.insightmenu, nav a.insightmenu:visited
 {
 	display: inline-block;
 	background-color:#67c7bb;
@@ -37,7 +47,7 @@ nav.inBody a, nav a:visited
 	padding: 0.5rem;
 }
 
-nav.inBody a:hover, nav a:active, nav a:focus
+nav.inBody a.insightmenu:hover, nav a.insightmenu:active, nav a.insightmenu:focus
 {
 	background-color: #4A8F86;
 	color: white;
@@ -286,6 +296,13 @@ form
 {
 	margin-left: 2rem;
 	padding-bottom: 1rem;
+}
+
+#payment-method input.payment
+{
+	width: 100%;
+	height: 2rem;
+	padding-left: 0.5rem;
 }
 
 #payment-method li
