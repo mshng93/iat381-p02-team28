@@ -276,13 +276,19 @@ form
 	padding: 0;
 }
 
-#payment-method li
+#payment-method li:nth-of-type(2), #payment-method li:nth-of-type(3)
 {
 	margin-left: 2rem;
-	padding: 0;
+	padding-bottom: 0.5rem;
 }
 
-#payment-method li:first-of-type
+#payment-method li:nth-of-type(4)
+{
+	margin-left: 2rem;
+	padding-bottom: 1rem;
+}
+
+#payment-method li
 {
 	margin-left: 0;
 	padding-bottom: 0.5rem;
