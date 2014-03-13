@@ -587,39 +587,6 @@ div.uniqueCayoCoco a
 	margin-bottom: 10rem;
 }
 
-div.romanticParis
-{
-	background-image: url('../images/package-romanticParis.jpg');
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-size: cover;
-	color: white;
-	margin-bottom: 0.5rem;
-	overflow: auto;
-}
-
-div.romanticParis a
-{
-	color: white;
-	text-decoration: none;
-}
-
-.romanticParis .adButton
-{
-	width: 100%;
-	background-color: rgba(0,153,153,0.7);
-	padding: 1rem;
-	margin-bottom: 10rem;
-}
-
-.romanticParis .adButton:hover
-{
-	width: 100%;
-	background-color: rgba(0,102,102,0.7);
-	padding: 1rem;
-	margin-bottom: 10rem;
-}
-
 
 /* ---------------------------------------- FOR ABOUT US PAGE ------------------------------------------- */
 
