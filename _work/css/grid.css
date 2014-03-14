@@ -259,9 +259,15 @@ nav.inBody
 	.col-1of6 .collapsed
 	{
 		display: inherit;
+		background-color: #67c7bb;
 	}
 
 	.col-1of6 .menu
+	{
+		display: none;
+	}
+
+	.col-1of6 .menu-selected
 	{
 		display: none;
 	}
