@@ -260,6 +260,7 @@ nav.inBody
 	{
 		display: inherit;
 		background-color: #67c7bb;
+		padding: 0.2rem 0;
 	}
 
 	.col-1of6 .menu
